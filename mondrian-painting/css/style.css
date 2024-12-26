@@ -1,5 +1,8 @@
 body {
     background-color: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container {
     width: 748px;
@@ -10,14 +13,14 @@ body {
     background-color: black;
 }
 .red {
-    background-color: red;
+    background-color: #e72f24;
     height: 414px;
     width: 320px;
     grid-column: 1;
     grid-row: 1;
 }
 .white1 {
-    background-color: white;
+    background-color: #f0f1ec;
     height: 414px;
     width: 419px;
     grid-column-start: 2;
@@ -25,21 +28,21 @@ body {
     grid-row:1;
 }
 .white2 {
-    background-color: white;
+    background-color: #f0f1ec;
     width: 320px;
     height: 295px;
     grid-column: 1;
     grid-row: span 2;
 }
 .white3 {
-    background-color: #ffffff;
+    background-color: #f0f1ec;
     width: 320px;
     height: 20px;
     grid-column: 1;
     grid-row: 4;
 }
 .white4 {
-    background-color: white;
+    background-color: #f0f1ec;
     width: 360px;
     height: 295px;
     grid-column: 2;
@@ -47,23 +50,26 @@ body {
     
 }
 .blue {
-    background-color: navy;
+    background-color: #004592;
     width: 50px;
     height: 130px;
     grid-row: 2;
     grid-column: 3;
 }
 .yellow {
-    background-color: yellow;
+    background-color: #f9d013;
     width: 198px;
     height: 20px;
     grid-row: 4;
     grid-column: 2;
 }
 .white5 {
-    background-color: white;
+    background-color: #f0f1ec;
     width: 50px;
     height: 183px;
     grid-column: 3;
     grid-row: span 2;
+}
+.black {
+    background-color: #232629;
 }
